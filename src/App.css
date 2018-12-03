@@ -3,20 +3,24 @@
 }
 .header {
   background-color: #282c34;
-  max-height: 20vh;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   color: white;
 }
 
 main {
   min-height: 80vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-highlight {
+a {
   font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
 }
