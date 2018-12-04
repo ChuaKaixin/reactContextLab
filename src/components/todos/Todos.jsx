@@ -21,17 +21,3 @@ const Todos = props => {
 };
 
 export default Todos;
-
-// let [newTodo, setNewTodo] = useState("");
-// let [todos, setTodos] = useState(props.todos);
-// <form
-// onSubmit={e => {
-//   e.preventDefault();
-//   setTodos([...todos, { name: newTodo, isCompleted: false }]);
-//   setNewTodo("");
-// }}
-// >
-// <input value={newTodo} onChange={e => setNewTodo(e.target.value)} />
-
-/* cannot put any elements outside of the consumer children brackets like this <input /> */
-/* for more info on error above, https://github.com/facebook/react/issues/12241 */

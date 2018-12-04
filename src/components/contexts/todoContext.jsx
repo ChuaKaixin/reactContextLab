@@ -8,7 +8,7 @@ class TodoContextProvider extends Component {
     this.state = {
       todos: [
         { name: "feed cat", isCompleted: false },
-        { name: "research on Majorca", isCompleted: false }
+        { name: "sing song", isCompleted: false }
       ],
       newTodo: "",
       addTodos: this.addTodos,
